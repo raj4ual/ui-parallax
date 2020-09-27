@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device:width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, serif;
+            margin: 0
+        }
+
+        header {
+            background-color: coral;
+            color: blue;
+            height: 14vh;
+            border-bottom: 1px blueviolet solid;
+            position: fixed;
+            width: 100vw;
+        }
+
+        header h1 {
+            margin: 0;
+            padding-top: 1em;
+            padding-left: 0.5em;
+        }
+
+        .profile {
+            height: 86vh;
+            color: red;
+            background-image: url(./images/river.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: center;
+            padding-top: 25vh;
+
+        }
+
+        .profile p {
+            width: 100vh;
+            margin: 2em auto;
+            text-align: justify;
+        }
+
+        .profile img {
+            height: auto;
+            width: 25vh;
+            border-radius: 50%;
+            border: 1px orangered solid;
+            box-shadow: 0px 0px 20px;
+            transition: transform 1.5s ease;
+        }
+
+        .profile img:hover {
+            transform: scale(1.5, 1.5)
+        }
+
+        main .profile a {
+            background-color: orangered;
+            color: rebeccapurple;
+            padding: 0.5em 1em;
+            font-size: 1.5em;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        main .profile a:hover {
+            background-color: white;
+            color: rebeccapurple;
+            border: 2px orangered solid;
+        }
+
+        .skills {
+            padding-top: 15vh;
+            padding-left: 15vh;
+            background-image: url(./images/hills.jpg);
+            background-attachment: fixed;
+            height: 85vh;
+            color: blue;
+            border-top: 1px orangered solid;
+
+        }
+
+        .skills h2 {
+            margin: 0;
+        }
+        footer{
+            height: 5vh;
+            background-color: khaki;
+            color: blue;
+        }
+        footer >p{
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class=h1class>Developer Profile Page</h1>
+    </header>
+    <main>
+        <section class="profile">
+            <h2>Developer-FullStack</h2>
+            <img src="images/developer.jpg" alt="image of the developer">
+            <p>A Full Stack Developer able to work and execute projects on wide spectrum of technologies from
+                Frontend,Backend , Databases, Scripting ,BPM Tech Domains.</p>
+            <a href="http://www.linkedin.com">Profile</a>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML5,CSS3</li>
+                    </ul>
+                </li>
+                <li>Backend</li>
+                <ul>
+                    <li>Java</li>
+                </ul>
+                <li>Scripting</li>
+                <ul>
+                    <li>Groovy</li>
+                </ul>
+                <li>Cloud</li>
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright (c) 2020 @First Web Page Creation</p>
+    </footer>
+</body>
+
+</html>
