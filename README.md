@@ -21,6 +21,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 
-Keyboard shortcuts
+Keyboard shortcuts :
+
 comment -ctrl+k+c
 uncomment - ctrl+k+u
