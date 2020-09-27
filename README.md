@@ -20,3 +20,7 @@ Mozilla Developer Network HTML/CSS Documentation , Reference,tutorials:
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+Keyboard shortcuts
+comment -ctrl+k+c
+uncomment - ctrl+k+u
